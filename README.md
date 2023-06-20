@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a C++ project that is my recreation of Conway's Game of Life. The initial state is randomly generated, and it uses the SDL library to visualize the simulation.
+This is a C++ project that is my recreation of Conway's Game of Life. The initial state is randomly generated, and it uses the SDL library to visualize the simulation. It is worth noting that Conway's Game of Life, despite its simplicity, is Turing complete.
 
 ## Rules
 
@@ -16,10 +16,6 @@ Conway's Game of Life is played on a two-dimensional grid of cells, where each c
 ## Visualization
 
 This project utilizes the SDL library to provide a graphical visualization of the Game of Life simulation. The SDL window displays the grid of cells, with live cells represented by white pixels and dead cells as black pixels. The simulation plays automatically, with each generation updating based on the rules mentioned above.
-
-## Turing Completeness
-
-It is worth noting that Conway's Game of Life, despite its simplicity, is Turing complete.
 
 ## Usage
 
